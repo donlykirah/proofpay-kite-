@@ -431,4 +431,5 @@ Built for the Kite AI Hackathon
 
 𝕏 Twitter
 
-📔 Medium
+📔 Medium#   K i t e p a y  
+ 
