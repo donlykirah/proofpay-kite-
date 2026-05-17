@@ -8,7 +8,7 @@
     "dev:node": "npx hardhat node",
     "dev:frontend": "cd frontend && npm install && npm run build",
     "dev:sdk": "cd sdk && npx tsx examples/basic-inference.ts",
-    "build": "cd frontend && npm run build",
+    "build": "cd frontend && npm install && npm run build",
     "deploy": "npx hardhat run scripts/deploy.ts --network hardhat",
     "compile": "npx hardhat compile",
     "cli": "cd sdk && npx tsx cli.ts",
@@ -23,6 +23,9 @@
     "hardhat": "^2.22.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.22.0",
+     "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@tailwindcss/vite": "^0.1.0",
     "typescript": "^5.0.0"
   },
   "dependencies": {
